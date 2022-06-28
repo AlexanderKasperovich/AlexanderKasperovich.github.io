@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Доступность</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="showerStyles/styles.css">
+    <link rel="stylesheet" href="mystyles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+
+
+<body class="shower list dark-mode">
+    <header class="caption">
+        <h1>Доступность</h1>
+        <p>Александр Касперович, ISsoft</p>
+    </header>
+
+    <section class="slide centered dis-slide a11y-desc">
+        <dl>
+            <dt class="">
+                Веб-доступность
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="universal-access"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 456c-114.953 0-208-93.029-208-208 0-114.953 93.029-208 208-208 114.953 0 208 93.029 208 208 0 114.953-93.029 208-208 208zm143.594-286.66c2.538 10.75-4.119 21.522-14.869 24.061-29.865 7.051-57.839 13.286-85.597 16.751.679 111.33 12.654 128.456 26.969 165.116 4.823 12.346-1.275 26.265-13.622 31.087-12.34 4.823-26.263-1.27-31.087-13.622-9.559-24.467-18.089-42.949-23.805-85.12h-3.164c-5.721 42.206-14.269 60.706-23.805 85.12-4.816 12.329-18.721 18.451-31.087 13.623-12.346-4.823-18.445-18.741-13.623-31.088 14.33-36.686 26.29-53.837 26.969-165.116-27.758-3.465-55.732-9.699-85.597-16.751-10.75-2.538-17.407-13.311-14.869-24.061 2.539-10.75 13.312-17.405 24.061-14.869 104.768 24.736 134.447 24.701 239.066 0 10.749-2.538 21.522 4.118 24.06 14.869zm-181.788-43.146C217.806 113.1 234.906 96 256 96s38.194 17.1 38.194 38.194-17.1 38.194-38.194 38.194-38.194-17.101-38.194-38.194z"
+                        class=""></path>
+                </svg>
+            </dt>
+            <dd>
+                это набор требований, методов и технологий разработки интерфейсов, которые делают их доступными <span
+                    class="accent">для всех
+                    пользователей.</span>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            Про людей
+        </h2>
+    </section>
+
+    <section class="slide gallery-slide">
+        <img class="disabled-1 cover" src="pictures/disabled-1.jpg" alt="">
+        <img class="disabled-2 next" src="pictures/disabled-2.jpg" alt="">
+        <img class="disabled-3 next" src="pictures/disabled-3.jpg" alt="">
+        <img class="disabled-4 next" src="pictures/disabled-4.jpg" alt="">
+        <img class="disabled-5 next" src="pictures/disabled-5.jpg" alt="">
+        <img class="disabled-6 next" src="pictures/disabled-6.jpg" alt="">
+        <img class="disabled-7 next" src="pictures/disabled-7.jpg" alt="">
+        <img class="disabled-8 next" src="pictures/disabled-8.jpg" alt="">
+        <img class="disabled-9 next" src="pictures/disabled-9.jpg" alt="">
+        <p class="copyright">
+            <a href="https://disabilityrightsflorida.org/">We protect the civil rights of people with disabilities in
+                Florida.</a>
+        </p>
+    </section>
+
+    <section class="slide centered tim" style="flex-direction: row; justify-content: space-between; padding: 0 4% 0 0;">
+        <img src="pictures/tim.jpg" alt="" style="height: 100%;">
+        <figure style="padding-left: 9%;">
+            <blockquote>
+                <p>
+                    Сила Интернета заключается в его универсальности. Всеобщая доступность, невзирая на ограничения
+                    здоровья, является непременным его условием
+                </p>
+            </blockquote>
+            <figcaption>
+                Tim Berners-Lee, директор W3C и создатель Всемирной паутины
+            </figcaption>
+        </figure>
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%2591%25D0%25B5%25D1%2580%25D0%25BD%25D0%25B5%25D1%2580%25D1%2581-%25D0%259B%25D0%25B8%2C_%25D0%25A2%25D0%25B8%25D0%25BC&psig=AOvVaw35Rla4YDenlc-Xn9F98DRZ&ust=1585557260123000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLi6t7qjv-gCFQAAAAAdAAAAABAe">
+                Бернерс-Ли, Тим — Википедия
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <img class="fit" src="pictures/web-init.png" alt="">
+        <p class="copyright">
+            <a style="color: var(--c-ocean);" href="https://www.w3.org/WAI/">
+                Web Accessibility Initiative
+            </a>
+        </p>
+    </section>
+
+    <section class="slide dis-slide">
+        <h2>Виды нарушений</h2>
+        <ul>
+            <li>
+                Визуальные
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="low-vision"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path fill="currentColor"
+                        d="M569.344 231.631C512.96 135.949 407.81 72 288 72c-28.468 0-56.102 3.619-82.451 10.409L152.778 10.24c-7.601-10.858-22.564-13.5-33.423-5.9l-13.114 9.178c-10.86 7.601-13.502 22.566-5.9 33.426l43.131 58.395C89.449 131.73 40.228 174.683 6.682 231.581c-.01.017-.023.033-.034.05-8.765 14.875-8.964 33.528 0 48.739 38.5 65.332 99.742 115.862 172.859 141.349L55.316 244.302A272.194 272.194 0 0 1 83.61 208.39l119.4 170.58h.01l40.63 58.04a330.055 330.055 0 0 0 78.94 1.17l-189.98-271.4a277.628 277.628 0 0 1 38.777-21.563l251.836 356.544c7.601 10.858 22.564 13.499 33.423 5.9l13.114-9.178c10.86-7.601 13.502-22.567 5.9-33.426l-43.12-58.377-.007-.009c57.161-27.978 104.835-72.04 136.81-126.301a47.938 47.938 0 0 0 .001-48.739zM390.026 345.94l-19.066-27.23c24.682-32.567 27.711-76.353 8.8-111.68v.03c0 23.65-19.17 42.82-42.82 42.82-23.828 0-42.82-19.349-42.82-42.82 0-23.65 19.17-42.82 42.82-42.82h.03c-24.75-13.249-53.522-15.643-79.51-7.68l-19.068-27.237C253.758 123.306 270.488 120 288 120c75.162 0 136 60.826 136 136 0 34.504-12.833 65.975-33.974 89.94z" />
+                </svg>
+            </li>
+            <li class="next">
+                Аудиальные
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="deaf"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M216 260c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-44.112 35.888-80 80-80s80 35.888 80 80c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-13.234-10.767-24-24-24s-24 10.766-24 24zm24-176c-97.047 0-176 78.953-176 176 0 15.464 12.536 28 28 28s28-12.536 28-28c0-66.168 53.832-120 120-120s120 53.832 120 120c0 75.164-71.009 70.311-71.997 143.622L288 404c0 28.673-23.327 52-52 52-15.464 0-28 12.536-28 28s12.536 28 28 28c59.475 0 107.876-48.328 108-107.774.595-34.428 72-48.24 72-144.226 0-97.047-78.953-176-176-176zm268.485-52.201L480.2 3.515c-4.687-4.686-12.284-4.686-16.971 0L376.2 90.544c-4.686 4.686-4.686 12.284 0 16.971l28.285 28.285c4.686 4.686 12.284 4.686 16.97 0l87.03-87.029c4.687-4.688 4.687-12.286 0-16.972zM168.97 314.745c-4.686-4.686-12.284-4.686-16.97 0L3.515 463.23c-4.686 4.686-4.686 12.284 0 16.971L31.8 508.485c4.687 4.686 12.284 4.686 16.971 0L197.256 360c4.686-4.686 4.686-12.284 0-16.971l-28.286-28.284z" />
+                </svg>
+            </li>
+            <li class="next">
+                Моторные
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="accessible-icon"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z" />
+                </svg>
+            </li>
+            <li class="next">
+                Когнитивные
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="question-circle"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 448c-110.532 0-200-89.431-200-200 0-110.495 89.472-200 200-200 110.491 0 200 89.471 200 200 0 110.53-89.431 200-200 200zm107.244-255.2c0 67.052-72.421 68.084-72.421 92.863V300c0 6.627-5.373 12-12 12h-45.647c-6.627 0-12-5.373-12-12v-8.659c0-35.745 27.1-50.034 47.579-61.516 17.561-9.845 28.324-16.541 28.324-29.579 0-17.246-21.999-28.693-39.784-28.693-23.189 0-33.894 10.977-48.942 29.969-4.057 5.12-11.46 6.071-16.666 2.124l-27.824-21.098c-5.107-3.872-6.251-11.066-2.644-16.363C184.846 131.491 214.94 112 261.794 112c49.071 0 101.45 38.304 101.45 88.8zM298 368c0 23.159-18.841 42-42 42s-42-18.841-42-42 18.841-42 42-42 42 18.841 42 42z" />
+                </svg>
+            </li>
+        </ul>
+        <p class="copyright">
+            <a
+                href="https://medium.com/@fokinatatiana/%D0%BA%D0%BE%D0%BC%D1%83-%D0%BD%D1%83%D0%B6%D0%BD%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2-%D0%B2%D0%B5%D0%B1%D0%B5-6a86dc3e532f">
+                Кому нужна доступность в вебе</a>
+        </p>
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt>
+                Визуальные
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="low-vision"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path fill="currentColor"
+                        d="M569.344 231.631C512.96 135.949 407.81 72 288 72c-28.468 0-56.102 3.619-82.451 10.409L152.778 10.24c-7.601-10.858-22.564-13.5-33.423-5.9l-13.114 9.178c-10.86 7.601-13.502 22.566-5.9 33.426l43.131 58.395C89.449 131.73 40.228 174.683 6.682 231.581c-.01.017-.023.033-.034.05-8.765 14.875-8.964 33.528 0 48.739 38.5 65.332 99.742 115.862 172.859 141.349L55.316 244.302A272.194 272.194 0 0 1 83.61 208.39l119.4 170.58h.01l40.63 58.04a330.055 330.055 0 0 0 78.94 1.17l-189.98-271.4a277.628 277.628 0 0 1 38.777-21.563l251.836 356.544c7.601 10.858 22.564 13.499 33.423 5.9l13.114-9.178c10.86-7.601 13.502-22.567 5.9-33.426l-43.12-58.377-.007-.009c57.161-27.978 104.835-72.04 136.81-126.301a47.938 47.938 0 0 0 .001-48.739zM390.026 345.94l-19.066-27.23c24.682-32.567 27.711-76.353 8.8-111.68v.03c0 23.65-19.17 42.82-42.82 42.82-23.828 0-42.82-19.349-42.82-42.82 0-23.65 19.17-42.82 42.82-42.82h.03c-24.75-13.249-53.522-15.643-79.51-7.68l-19.068-27.237C253.758 123.306 270.488 120 288 120c75.162 0 136 60.826 136 136 0 34.504-12.833 65.975-33.974 89.94z" />
+                </svg>
+            </dt>
+            <dd>
+                Пользователи с различными уровнями нарушения зрения, дальтонизмом или полной слепотой. Некоторым
+                требуется программное обеспечение, такое как программы чтения с экрана, чтобы объявить содержимое экрана
+                либо синтезированным голосом, либо шрифтом Брайля.
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide centered">
+        <h2 class="shout" style="font-size: 80px !important;">Базовые принципы <img style="width: 5rem;" src="pictures/notebook.png" alt=""/></h2>
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/a11y-1.gif" alt="a11y">
+    </section>
+    <section class="slide full">
+        <img src="pictures/a11y-2.gif" alt="a11y">
+    </section>
+    <section class="slide full">
+        <img src="pictures/a11y-3.gif" alt="a11y">
+    </section>
+    <section class="slide full">
+        <img src="pictures/a11y-4.gif" alt="a11y">
+    </section>
+    <section class="slide full" style="align-items: center;">
+        <img src="pictures/a11y-5.gif" alt="a11y">
+    </section>
+    <section class="slide full">
+        <img src="pictures/a11y-6.gif" alt="a11y">
+    </section>
+    <section class="slide full">
+        <img src="pictures/a11y-7.gif" alt="a11y">
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt>
+                Аудиальные
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="deaf"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M216 260c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-44.112 35.888-80 80-80s80 35.888 80 80c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-13.234-10.767-24-24-24s-24 10.766-24 24zm24-176c-97.047 0-176 78.953-176 176 0 15.464 12.536 28 28 28s28-12.536 28-28c0-66.168 53.832-120 120-120s120 53.832 120 120c0 75.164-71.009 70.311-71.997 143.622L288 404c0 28.673-23.327 52-52 52-15.464 0-28 12.536-28 28s12.536 28 28 28c59.475 0 107.876-48.328 108-107.774.595-34.428 72-48.24 72-144.226 0-97.047-78.953-176-176-176zm268.485-52.201L480.2 3.515c-4.687-4.686-12.284-4.686-16.971 0L376.2 90.544c-4.686 4.686-4.686 12.284 0 16.971l28.285 28.285c4.686 4.686 12.284 4.686 16.97 0l87.03-87.029c4.687-4.688 4.687-12.286 0-16.972zM168.97 314.745c-4.686-4.686-12.284-4.686-16.97 0L3.515 463.23c-4.686 4.686-4.686 12.284 0 16.971L31.8 508.485c4.687 4.686 12.284 4.686 16.971 0L197.256 360c4.686-4.686 4.686-12.284 0-16.971l-28.286-28.284z" />
+                </svg>
+            </dt>
+            <dd>
+                Пользователи с различными уровнями нарушения слуха. Если приложение использует звук для передачи
+                информации, то также должны быть предоставлены визуальные альтернативы или субтитры.
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout">Добавляйте субтитры</h2>
+        </div>
+        <img src="pictures/captions.png" alt="">
+        <p class="copyright">
+            <a href="https://www.youtube.com/watch?v=20SHvU2PKsM">
+                Introduction to Web Accessibility and W3C Standards
+            </a>
+        </p>
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt>
+                Моторные
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="accessible-icon"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z" />
+                </svg>
+            </dt>
+            <dd>
+                Пользователям может быть трудно использовать мышь. Вместо неё они могут использовать клавиатуру или
+                вспомогательные технологии для управления своим устройством.
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/motor-dis.jpg" alt="">
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt>
+                Когнитивные
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="question-circle"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 448c-110.532 0-200-89.431-200-200 0-110.495 89.472-200 200-200 110.491 0 200 89.471 200 200 0 110.53-89.431 200-200 200zm107.244-255.2c0 67.052-72.421 68.084-72.421 92.863V300c0 6.627-5.373 12-12 12h-45.647c-6.627 0-12-5.373-12-12v-8.659c0-35.745 27.1-50.034 47.579-61.516 17.561-9.845 28.324-16.541 28.324-29.579 0-17.246-21.999-28.693-39.784-28.693-23.189 0-33.894 10.977-48.942 29.969-4.057 5.12-11.46 6.071-16.666 2.124l-27.824-21.098c-5.107-3.872-6.251-11.066-2.644-16.363C184.846 131.491 214.94 112 261.794 112c49.071 0 101.45 38.304 101.45 88.8zM298 368c0 23.159-18.841 42-42 42s-42-18.841-42-42 18.841-42 42-42 42 18.841 42 42z" />
+                </svg>
+            </dt>
+            <dd>
+                Пользователей могут испытывать затруднения с пониманием содержания, информации, пониманием
+                языка, сохранением фокуса или восприятием. Веб-сайты должны быть построены таким образом, чтобы вся
+                информация была легко понятна и была легко доступна.
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout">Создавайте понятный контент</h2>
+        </div>
+        <img src="pictures/Microsoft-Carlos-de-Saro-1126.jpg" alt="">
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.microsoft.com%2Ffeatures%2Fman-with-down-syndrome-empowers-others-using-technology%2F&psig=AOvVaw00xIfHL8PY-6v1HYe-kXBp&ust=1592334446718000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCMDI2J_ChOoCFQAAAAAdAAAAABAf">
+                Man with Down syndrome empowers others using technology - Stories
+            </a>
+        </p>
+    </section>
+
+    <section class="slide full">
+        <iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/3f31oufqFSM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout" style="color: white;">
+            <span style="color: var(--c-turquoise)">WCAG</span>
+            <br>
+            <span class="next" style="font-size: 3rem;">The Web Content Accessibility Guidelines</span>
+        </h2>
+    </section>
+
+    <section class="slide centered a11y-desc">
+        <dl>
+            <dt>WCAG 📖</dt>
+            <dd>Рекомендации по обеспечению доступности веб-контента</dd>
+        </dl>
+    </section>
+
+    <section class="slide">
+        <h2>WCAG 1.0: Основное</h2>
+        <ul>
+            <li>Не полагайтесь на цвет</li>
+            <li>Используйте правильную разметку и стили</li>
+            <li>Разрабатывайте для устройств с разными настройками</li>
+            <li>Обеспечивайте ясную навигацию</li>
+            <li>Делайте контент понятным</li>
+        </ul>
+        <p class="copyright">
+            <a href="https://www.w3.org/TR/WAI-WEBCONTENT/">
+                Web Content Accessibility Guidelines 1.0
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>WCAG 2.0: Что изменилось</h2>
+        <ul>
+            <li>Появилось 4 основых принципа</li>
+            <li>В каждом принципе есть гайдлайны</li>
+            <li>У всех гайдлайнов есть критерии успеха на уровне A, AA, AAA</li>
+            <li>Более точен при ручном и автоматизированном тестировании</li>
+            <li>Применяется в большом количестве веб-технологий и предназначен для применения в будущих технологиях</li>
+        </ul>
+        <p class="copyright">
+            <a href="https://www.w3.org/WAI/WCAG20/from10/diff.php">
+                How WCAG 2.0 Differs from WCAG 1.0
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>WCAG 2.1: Не заменяет, но дополняет</h2>
+        <ul>
+            <li>Смена ориентации устройства: сайт доступен в обеих ориентациях, функциональность остаётся на том же
+                уровне</li>
+            <li>Перекомпоновка: при увеличении масштаба сайт перестраивается</li>
+            <li>Дополнительный контент по наведению и фокусу: содержимое должно быть доступно для пользователей, не
+                использующих мышь</li>
+            <li>Метки в имени: доступные имена интерактивных элементов</li>
+            <li>Сообщение о статусе: все изменения озвучиваются</li>
+        </ul>
+        <p class="copyright">
+            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/">
+                What’s New in WCAG 2.1
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>WCAG 2.2: Видимый фокус (Черновик)</h2>
+        <ul>
+            <li>Минимальная область: область индикации фокуса больше или равна самой длинной стороне ограничительного
+                прямоугольника сфокусированного контрола, умноженной на 2px</li>
+            <li>Контрастность фокуса: изменение цвета в фокусе имеет контраст 3:1 с цветом до состояния фокуса</li>
+            <li>Контрастность или толщина: показатель фокуса имеет контрастность 3:1 или его толщина минимум 2px</li>
+        </ul>
+        <p class="copyright">
+            <a href="https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2">
+                Web Content Accessibility Guidelines (WCAG) 2.2
+            </a>
+        </p>
+    </section>   
+
+    <section class="slide">
+        <h2 class="shout">
+            4 принципа
+        </h2>
+    </section>
+
+    <section class="slide centered-v a11y-desc">
+        <img class="fit" src="pictures/user-with-screanreader.jpg" alt="">
+        <div class="screen-advice principle">
+            <dl>
+                <dt>1. Восприятие</dt>
+                <dd>
+                    Пользователи могут видеть или слышать контент.
+                </dd>
+            </dl>
+        </div>
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aclu.org%2Ffiles%2F022415-ACLU-VoterReg.html&psig=AOvVaw3iERMv6gaVIthLIs8VyM7j&ust=1592337692982000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKC-ta7OhOoCFQAAAAAdAAAAABAb">
+                American Civil Liberties Union
+            </a>
+        </p>
+    </section>
+
+    <section class="slide centered-v a11y-desc">
+        <img class="fit" src="pictures/motor-disability.jpg" alt="">
+        <div class="screen-advice principle">
+            <dl>
+                <dt>2. Управляемость</dt>
+                <dd>
+                    Пользователи могут управлять компьютером с клавиатуры или голосом.
+                </dd>
+            </dl>
+        </div>
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.washoeschools.net%2Fdomain%2F278&psig=AOvVaw1xOvG2b8-LDP-2nyLIhWy8&ust=1592381123427000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCMjB4Yr1heoCFQAAAAAdAAAAABAI">
+                Assistive Technology / Department Homepage
+            </a>
+        </p>
+    </section>
+
+    <section class="slide centered-v a11y-desc">
+        <img class="fit" src="pictures/user-old.jpg" alt="">
+        <div class="screen-advice principle">
+            <dl>
+                <dt>3. Понятность</dt>
+                <dd>
+                    Контент должен быть на простом и понятном языке.
+                </dd>
+            </dl>
+        </div>
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themarysue.com%2Ftake-the-internet-quiz%2F&psig=AOvVaw1ymiJz3MCGrNvDXcXyPB-U&ust=1592382444611000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCIiN0ar1heoCFQAAAAAdAAAAABAD">
+                Only 3 out of 5 Internet Users Know What Net Neutrality Is | The Mary Sue
+            </a>
+        </p>
+    </section>
+
+    <section class="slide centered-v a11y-desc">
+        <img class="fit" src="pictures/user-with-head-pointer.jpg" alt="">
+        <div class="screen-advice principle">
+            <dl>
+                <dt>4. Надёжность</dt>
+                <dd>
+                    Пользователи могут использовать различные ассистивные технологии.
+                </dd>
+            </dl>
+        </div>
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.mundstab.de%2Fhome%2Fipad-head-pointer-english%2F&psig=AOvVaw2iJKT2sebTDRfWnoxOzYBC&ust=1592383832404000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCNCh8pn6heoCFQAAAAAdAAAAABAS">
+                Mundstab Mouthstick - iPad Head Pointer English
+            </a>
+        </p>
+    </section>
+
+    <section class="slide full">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qDm7GiKra28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/levels.jpg" alt="" class="">
+        <p class="copyright">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.levelaccess.com%2Fwcag-a-and-wcag-aa-conformance%2F&psig=AOvVaw2idz6U8gyNZYgSHw45L2QG&ust=1585386098425000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCOitrIunuugCFQAAAAAdAAAAABAD">
+                The Difference Between WCAG A and WCAG AA Conformance? - Level Access
+            </a>
+        </p>
+    </section>
+
+    <section class="slide levels">
+        <h2>Уровень A</h2>
+        <p>
+            Начальный. Если рекомендации не выполнены, вспомогательные технологии не смогут полностью воспринимать
+            содержимое страницы.
+        </p>
+        <p>
+            <span class="accent">25 </span> критериев успеха
+        </p>
+    </section>
+
+    <section class="slide levels">
+        <h2>Уровень AA</h2>
+        <p>
+            Универсальная поддержка. Требуется для веб-сайтов правительства и государственных органов ЕС, а также лежит
+            в
+            основе закона ADA Compliance.
+        </p>
+        <p>
+            <span class="accent">45 </span> критериев успеха: Все критерии успеха уровня A + 20 критериев успеха уровня
+            AA
+        </p>
+    </section>
+
+    <section class="slide levels">
+        <h2>Уровень AAA</h2>
+        <p>
+            Поддержка высокого уровня. Обычно используется сайтами, которые обслуживают специализированную
+            аудиторию.
+        </p>
+        <p>
+            <span class="accent">73 </span> критерия успеха: Все критерии успеха уровня AA + 28 критериев успеха уровня
+            AAA
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink ttu">
+            закон
+        </h2>
+        <p class="copyright">
+            <a href="https://medium.com/web-standards/a11y-and-law-a81dd9dd5fc8">Доступность и закон</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Евросоюз 🇪🇺</h2>
+        <ul style="font-size: 2.5rem;">
+            <li>Директива о веб-доступности 🧑‍⚖️</li>
+            <li>Европейский закон о доступности 🧑‍⚖️</li>
+            <li>Европейский стандарт EN 301 549 📖</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇪🇺</span> Директива о веб-доступности («Web Accessibility Directive»)</h2>
+        <p>Обязаны исполнять все государственные учреждения, а также коммерческие компании, которые сотрудничают
+            с государством</p>
+        <p class="law-demand">
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="http://nda.ie/Publications/Communications/EU-Web-Accessibility-Directive/">Европейская директива о
+                веб-доступности.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇪🇺</span>Европейский закон о доступности (European Accessibility Act — EAA)</h2>
+        <p>Обязаны исполнять все государственные и коммерческие компании, которые создают информационно-коммуникационные
+            технологии.
+            <br>
+            <span class="accent">2022</span>  — Появятся документы о регулировании закона
+            <br>
+            <span class="accent">2025</span>  — Все приложения должны быть доступными
+        </p>
+        <p class="law-demand">
+            Требования: WCAG 2.0 (WCAG 2.1) AA
+        </p>
+        <p class="copyright">
+            <a href="https://ec.europa.eu/social/main.jsp?catId=1202">Европейский закон о доступности.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇪🇺</span>Европейский стандарт EN 301 549 (Standard EN 301 549 — EN 301 549)</h2>
+        <p>Стандарт даёт только рекомендации. Он становится обязательным, когда на него ссылается документ с юридической
+            силой. Это может быть Директива о веб-доступности или Европейский закон о доступности.</p>
+        <p class="law-demand">
+            Основан на WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="http://mandate376.standards.eu/standard">Текст Стандарта.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>США 🇺🇸</h2>
+        <ul style="font-size: 2.5rem;">
+            <li>Раздел 508 🧑‍⚖️</li>
+            <li>ADA Compliance 🧑‍⚖️</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇺🇸</span>Раздел 508 (Section 508)</h2>
+        <p>Обязаны исполнять федеральные агентства и любые компании, которые сотрудничают с ними. Ими могут быть частные
+            фирмы из США и других стран ( + любые организации, получающие субсидии от государства)</p>
+        <p class="law-demand">
+            Требования: WCAG 2.0 AA
+            </pclass="law-demand">
+            <p class="copyright">
+                <a
+                    href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards">Текст
+                    Раздела 508.</a>
+            </p>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇺🇸</span>Закон об американцах с ограниченными возможностями (ADA — Americans with
+            Disabilities Act)</h2>
+        <p>Любые коммерческие и некоммерческие организации, которые оказывают услуги большому числу людей </p>
+        <p>
+            ❗️Общественные места и коммерческие объекты❗️
+        </p>
+        <p class="law-demand">
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="https://www.ada.gov/2010_regs.htm">Текст Закона об американцах-инвалидах.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Канада 🇨🇦</h2>
+        <ul style="font-size: 2rem;">
+            <li>Канадский закон о правах человека 1977 года 🧑‍⚖️</li>
+            <li>Закон о доступности для онтариев с ограниченными возможностями 🧑‍⚖️</li>
+        </ul>
+        <p class="copyright">
+            <a href="https://cielo24.com/2016/12/canadian-web-accessibility-laws-and-policies/">
+                Guide to Canadian Web Accessibility Laws and Policies
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2><span class="law-flag">🇨🇦</span>Канадский закон о правах человека 1977 года</h2>
+        <p>
+            Хотя этот закон был написан до появления интернета, можно утверждать, что недоступный веб-контент не
+            позволяет людям с ограниченными возможностями иметь равные возможности «в результате дискриминационной
+            практики»
+        </p>
+        <p class="law-demand">
+            Требования: WCAG 2.1 AA
+        </p>
+        <p class="copyright">
+            <a href="http://laws-lois.justice.gc.ca/eng/acts/h-6/">
+                Canadian Human Rights Act
+            </a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2 style="font-size: 35px; margin: 0 0 25px;"><span class="law-flag">🇨🇦</span>Закон о доступности для
+            онтариев с ограниченными возможностями (AODA — Accessibility for Ontarians with Disabilities Act)</h2>
+        <p>
+            Является законом Онтарио. Цель AODA — создание безбарьерного Онтарио к 2025 году. Применяется ко всем
+            организациям и лицам, предоставляющим общественные услуги, у которых есть по крайней мере один сотрудник в
+            Онтарио.
+            <br>
+            <span class="accent">2021</span> — Закон вступает в силу
+            <br>
+            Размер штрафов может достигать до <span class="accent">100.000$</span> США за каждый день нарушения
+        </p>
+        <p class="law-demand">
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a
+                href="https://siteimprove.com/en-ca/accessibility/accessibility-for-ontarians-with-disabilities-act-website-compliance/">
+                Accessibility for Ontarians with Disabilities Act (AODA) Website Compliance
+            </a>
+        </p>
+    </section>
+
+    <section class="slide gallery-slide">
+        <img class="disabled-1 ui-gif" src="pictures/ui1.gif" alt="UI">
+        <img class="disabled-2 ui-gif" src="pictures/ui2.gif" alt="UI">
+        <img class="disabled-3 ui-gif" src="pictures/ui3.gif" alt="UI">
+        <img class="disabled-4 ui-gif" src="pictures/ui4.gif" alt="UI">
+        <img class="disabled-5 ui-gif" src="pictures/ui5.gif" alt="UI">
+        <img class="disabled-6 ui-gif" src="pictures/ui6.gif" alt="UI">
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/react-js-image.png" alt="React">
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/react-comp.jpg" alt="React">
+        <div class="right-block">
+            <h2 style="margin: 6rem 0 0 2rem;">React  </h2>
+            <h2 style="margin: 0 0 0 4rem;">components</h2>
+            <div class="arrow-8"></div>
+            <h3>
+                 ARIA 
+            </h3>
+            <h4>
+                Accessible Rich Internet
+            </h4>
+            <h4>
+                Applications
+            </h4>
+        </div>     
+        <p class="copyright">
+            <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA Overview</a>
+        </p>  
+    </section>
+
+    <section class="slide full">
+        <div class="screen-advice">
+            <h2 class="shout">SOLID</h2>
+        </div>
+        <img src="pictures/solid.png" alt="">
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt style="font-size: 60px; margin-top: -3%;">
+                SOLID 
+            </dt>
+            <dd>
+                это аббревиатура пяти основных принципов проектирования в объектно-ориентированном 
+                программировании
+                <ul class="accent" style="margin: 5% 0 0 5%;">
+                    <li>
+                        <span style="color:  rgb(255, 127, 0);">Single responsibility (принципы единственной ответственности)</span>
+                    </li>
+                    <li>
+                        <span style="color:  rgb(255, 127, 0);">Open-closed (открытости / закрытости)</span>
+                    </li>
+                    <li>
+                        Liskov substitution (подстановки Барбары Лиско)
+                    </li>
+                    <li>
+                        Interface segregation (разделения интерфейса) 
+                    </li>
+                    <li>
+                        Dependency inversion (инверсии зависимостей)
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide dis-slide">
+        <dl style="margin-top: 10%;">
+            <p class="top-head">Solid</p>
+            <dt>
+                Single Responsibility Principle
+            </dt>
+            <dd class="solid">
+                Принцип единственной ответственности - обозначает, 
+                что каждый компонент должен иметь одну обязанность. 
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <div class="next">
+            <div class="screen-advice-bad">
+                <img class="advice-img" src="pictures/x-button.png" alt="" />
+            </div>
+            <div class="screen-advice-good">
+                <img class="advice-img" src="pictures/checked.png" alt=""/>
+            </div>
+        </div>
+        <img style="width: 50%;" src="pictures/multool.jpg" alt="">
+        <img style="width: 50%;" src="pictures/goodtool.jpg" alt="">
+    </section>
+
+    <section class="slide full">
+        <div class="c-button"> 
+            <div class="chekbox-two">
+                <label class="checkbox">
+                  <input type="checkbox" checked="">
+                  <span class="checkbox__icon"></span>
+                  <span class="checkbox_label">Нажмите</span>
+                  <a href="#">Ссылка </a>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide full">
+        <div class="next">
+            <div class="screen-advice-q">
+                <img style="width: 15%" src="pictures/question.png" alt=""/>
+            </div>
+        </div>
+        <img style="object-fit: cover; margin: 1% auto; border-radius: 20px;" src="pictures/somuch.jpg" alt="">
+    </section>
+
+    <section class="slide full">
+        <img style="width: 100%;" src="pictures/read.gif" alt="">
+    </section>
+
+    <section class="slide dis-slide">
+        <dl style="margin-top: 10%;">
+            <p class="top-head">sOlid</p>
+            <dt>
+                Open-Closed Principle
+            </dt>
+            <dd class="solid">
+                Принцип открытости-закрытости - декларирует, что компоненты 
+                должны быть открыты для расширения, но закрыты для изменения.  
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide flex no-full">
+        <article  class="code-p" >
+            <div class="com-div">
+                <h1 >Kомпозиция</h1>
+                <div class="flex-code com-img">
+                    <img src="pictures/compos.jpg" alt="">
+                </div>  
+            </div>
+        </article>
+        <article style="width: 30%; margin-right: 2%;" class="code-p">
+            <div class="code">
+                <p>
+                    &lt;<span style="color:#26d126">FormControl</span> <span style="color:#68bef8">component</span>="fieldset"> <br>
+                    &nbsp; &lt;<span style="color:#26d126">FormLabel</span> <span style="color:#68bef8">component</span>="legend"> <br>
+                    &nbsp; &nbsp; <span style="color:#26d126">Legend</span> <br>
+                    &nbsp; &lt;/<span style="color:#26d126">FormLabel</span>> <br>
+                    &nbsp; &lt;<span style="color:#26d126">FormGroup</span>> <br>
+                    &nbsp; &nbsp; &lt;<span style="color:#26d126">FormControlLabel</span><br>
+                    &nbsp; &nbsp; &nbsp; <span style="color:#68bef8">control</span>={<br>
+                    &nbsp; &nbsp; &nbsp; &lt;<span style="color:#26d126">Checkbox</span> <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; ... <br>
+                    &nbsp; &nbsp; &nbsp; />}<br>
+                    &nbsp; &nbsp; &nbsp; <span style="color:#68bef8">label</span>="Gilad Gray"<br>
+                    &nbsp; &nbsp; /><br>
+                    &nbsp; &lt;/<span style="color:#26d126">FormGroup</span>> <br>
+                    &nbsp; &lt;<span style="color:#26d126">FormHelperText</span>> <br>
+                    &nbsp; &nbsp; Be careful <br>
+                    &nbsp; &lt;/<span style="color:#26d126">FormHelperText</span>> <br>
+                    &lt;/<span style="color:#26d126">FormControl</span>>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section class="slide flex-code  no-full">
+        <article class="code-p">
+            <div class="code">
+                <code>
+                    &lt;<span style="color:#26d126">FormControlLabel</span> <br>
+                    &nbsp; &nbsp; <span style="color:#68bef8">control</span>={&lt;<span style="color:#26d126">Checkbox</span><br>
+                    &nbsp; &nbsp; <span style="color:#68bef8">checked</span>={state.checkedA} <br>
+                    &nbsp; &nbsp; <span style="color:#68bef8">onChange</span>={handleChange} <br>
+                    &nbsp; &nbsp; <span style="color:#68bef8">name</span>="checkedA"<br>
+                    &nbsp; &nbsp; />} <br>
+                    &nbsp; <span style="color:#68bef8">label</span>="Secondary"<br>
+                    /> <br>
+                </code>
+            </div>
+            <p>Checkbox c меткой</p>
+        </article>
+        <article class="material">
+            <h1 style="margin-top: 0;">MATERIAL-UI</h1>
+            <img src="pictures/logo-ui.svg" style="width: 60%;" alt="">
+            <div>
+                <a href="https://material-ui.com">material-ui.com</a>
+                <a href="https://github.com/mui-org/material-ui">github: mui-org/material-ui</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout">Больше <br> конкретики</h2>
+        </div>
+        <img src="pictures/goal.jpg" alt="mess">
+    </section>
+
+    <section class="slide centered-v dis-slide">
+        <dl>
+            <dt>
+                Специфические баги <img src="pictures/bug.png" alt="" />
+            </dt>
+            <dd>
+                Часто баги связанны с работой программного обеспечения конечного устройства, 
+                особенностями программ для доступности такими как <span class="accent">VoiceOver</span> 
+                на IOS или <span class="accent">TalkBack</span> на Android и с технологиями используемыми разработчиками, например 
+                <span class="accent">Cordova</span>  – следовательно возникают баги, которые 
+                воспроизводятся лишь на конечном устройстве.
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/tester.jpeg" alt="">
+    </section>
+
+
+    <section class="slide right-dl">
+        <img class="left-img"  src="pictures/voice.gif" alt="voice">
+        <dl class="with-block" style="margin-top: 2%;">
+            <dt>
+                ARIA атрибуты
+            </dt>
+            <dd>
+                <ul>
+                    <li>role</li>
+                    <li>aria-live</li>
+                    <li>aria-atomic</li>
+                    <li>aria-busy</li>
+                    <li>aria-labelledby</li>
+                    <li>aria-describedby</li>
+                    <li>aria-hidden</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    
+
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout" style="font-size: 75px !important; line-height: 1.5;">Доступность на мобильных устройствах</h2>
+        </div>
+        <img src="pictures/voice.png" alt="">
+    </section>
+
+    <section class="slide full">
+        <div class="next screen-advice-none">
+            <table>
+                <caption>Таблица из Div с ролями</caption>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>role="columnheader"</th>
+                    <th>...</th>
+                </tr>
+                <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+                <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+                <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+            </table>
+        </div>
+        <table>
+            <caption>Таблица из Div с ролями</caption>
+            <tr>
+                <th>&nbsp;</th>
+                <th >role="columnheader"</th>
+                <th>...</th>
+            </tr>
+            <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+            <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+            <tr><td>role="row"</td><td>role="cell"</td><td>...</td></tr>
+        </table>
+    </section>
+
+    <section class="slide flex no-full">
+        <article class="code-p">
+            <div class="code">
+                <code>
+                    // компонент верхнего уровня<br>
+                    &lt;<span style="color:#26d126">div</span>> <br>
+                    &nbsp;&lt;<span style="color:#26d126">ul</span> <span style="color:#68bef8">role</span>="tablist"> <br>
+                    &nbsp; &nbsp;цикл ...<br>
+                    &nbsp;// компонент нижнего уровня<br>
+                    &nbsp; &nbsp; &nbsp;&lt;<span style="color:#26d126">li</span> <span style="color:#68bef8">role</span>="tab"> <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;&lt;<span style="color:#26d126">button</span>><br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;...<br>
+                </code>
+            </div>
+            <p>Не работает на андройд  </p>
+        </article>
+        <article class="code-p">
+            <div class="code">
+                <code>
+                    // компонент верхнего уровня<br>
+                    &lt;<span style="color:#26d126">div</span>> <br>
+                    &nbsp;&lt;<span style="color:#26d126">ul</span> <span style="color:#68bef8">role</span>="tablist"> <br>
+                    &nbsp; &nbsp;цикл ...<br>
+                    &nbsp;// компонент нижнего уровня<br>
+                    &nbsp; &nbsp; &nbsp;&lt;<span style="color:#26d126">li</span>> <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;&lt;<span style="color:#26d126">button</span> <span style="color:#68bef8">role</span>="tab"><br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;...<br>
+                </code>
+            </div>
+            <p>Не работает на IOS </p>
+        </article>
+    </section>
+
+    <section class="slide flex no-full">
+        <article class="code-p">
+            <div class="code">
+                <code>
+                    // компонент верхнего уровня<br>
+                    &lt;<span style="color:#26d126">div</span> <span style="color:#68bef8">role</span>="tablist"> <br>
+                    &nbsp; цикл ...<br>
+                    &nbsp;// компонент нижнего уровня<br>
+                    &nbsp; &nbsp; &lt;<span style="color:#26d126">button</span> <span style="color:#68bef8">role</span>="tab"><br>
+                    &nbsp; &nbsp; &nbsp; ...<br>
+                </code>
+            </div>
+            <p>Универсальное решение </p>
+        </article>
+        <article class="code-p left-border">
+            <h1>Избегайте большого числа нефункциональных оберток</h1>
+            <div class="flex-code" style="width: 100%; height: 50%;">
+                <div class="red-b"></div>
+                <div class="yellow-b"></div>
+                <div class="green-b"></div>
+            </div>  
+        </article>
+    </section>
+
+    <section class="slide full right-dl">
+        <img style="height: 100%; margin: 0;" src="pictures/dang.jpg" alt="dangerous">
+        <dl class="with-block" style="margin-top: 8%;">
+            <dt>
+                &lt;iframe>   
+            </dt>
+            <dd style="margin-bottom: 15%;">
+                <ul>
+                    <li>Cложность взаимодействия с содержимым </li>
+                    <li>Проблемы с субтитрами </li>
+                    <li>Непредусмотренные ошибки </li>
+                </ul>
+            </dd>
+            <h3 class="h3-radius">По возможности избегайте iframe</h3>
+        </dl>      
+    </section>
+
+    <section class="slide dis-slide">
+        <dl class="dl-line">
+            <dt>
+                Метки связаны с текстом <img src="pictures/connect.png" alt=""/>
+            </dt>
+            <dd class="center-dd code">
+                {
+                    <span class="main-text">text: “Mail”,</span>
+                    <span class="label-text">aria-label: “Сlick to send email, <span class="crossed-text">button</span>”</span>
+                    <span class="comment">// button ставится автоматически (role)</span>
+                }
+                    
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide dis-slide">
+        <dl>
+            <dt>
+                aria-live
+            </dt>
+            <dd class="aria">
+                Используется для определения важности изменений, которые произошли в элементе. 
+                <ul>
+                    <li><span class="accent">off &nbsp; </span> (default) — отсутствие приоритета</li>
+                    <li><span class="accent">polite &nbsp; </span> — обозначает низкий уровень приоритета </li>
+                    <li><span class="accent">assertive &nbsp; </span> — указывает на наивысший уровень приоритета</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img style="margin: 3% auto; width: 60%; height: 80%; padding: 2%; border-left: 6px solid  rgb(255, 127, 0); border-right: 6px solid  rgb(255, 127, 0);" src="pictures/message.gif" alt="">
+    </section>
+
+    <section class="slide dis-slide">
+        <dl>
+            <dt>
+                aria-atomic
+            </dt>
+            <dd class="aria">
+                Необязательный атрибут влияющий на то, в каком объёме вспомогательные технологии объявят 
+                об изменениях: это будет весь контент целиком или только его изменившаяся часть.
+                <ul>
+                    <li><span class="accent">false  &nbsp; </span> (default)  — только его изменившаяся часть </li>
+                    <li><span class="accent">true  &nbsp; </span> — весь контент целиком</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img style="margin: 3% auto; width: 60%; height: 80%; padding: 2%; border-left: 6px solid  rgb(255, 127, 0); border-right: 6px solid  rgb(255, 127, 0);" src="pictures/chengenum.gif" alt="">
+    </section>
+
+    <section class="slide dis-slide">
+        <dl>
+            <dt>
+                aria-busy
+            </dt>
+            <dd class="aria">
+                Даёт вспомогательным технологиям знать, обновляется ли сейчас содержимое элемента или нет
+                <ul>
+                    <li><span class="accent">false  &nbsp; </span> (default)  — screen reader не ждет окончания изменений</li>
+                    <li><span class="accent">true  &nbsp; </span> — screen reader ожидает окончания изменений</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img style="margin: 3% auto; width: 60%; height: 80%; padding: 2%; border-left: 6px solid  rgb(255, 127, 0); border-right: 6px solid  rgb(255, 127, 0);" src="pictures/statistics.gif" alt="">
+    </section>
+
+    <section class="slide dis-slide">
+        <dl>
+            <dt>
+                aria-labelledby / aria-describedby
+            </dt>
+            <dd class="aria">
+                Два схожих атрибута, которые связывают контент (метку) с элементом (картинка, форма и тд) через id.
+                <ul>
+                    <li><span class="accent">labelledby  &nbsp; </span>  — краткое описание элемента</li>
+                    <li><span class="accent">describedby  &nbsp; </span> — доп. описание с низким приоритетом</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/gog.jpg" alt="">
+    </section>
+
+    <section class="slide dis-slide">
+        <dl>
+            <dt>
+                aria-hidden
+            </dt>
+            <dd class="aria">
+                Отвечает за видимость элемента для вспомогательных технологий.
+                <ul>
+                    <li><span class="accent">false  &nbsp; </span> (default)  — элемент виден</li>
+                    <li><span class="accent">true  &nbsp; </span> — элемент не виден</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="slide full">
+        <img style="margin: 5% auto; width: 60%; height: 80%;" src="pictures/1ZDm.gif" alt="">
+    </section>
+
+    <section class="slide right-dl">
+        <div class="crop">
+            <img  src="pictures/rout.gif" alt="cros">
+        </div>
+        <dl class="abs-dl">
+            <dt style="line-height: 2rem;">
+                &nbsp;&nbsp;&nbsp;&nbsp;Управление фокусом  
+                <div class="line-hr2"></div>
+            </dt>
+            <div style="width: 90%; margin-left: 0.5%;">
+                <img src="pictures/focus.png" alt="">
+            </div>
+        </dl>
+        <p class="copyright">
+            <a href="https://ru.reactjs.org/docs/accessibility.html">Доступность контента в React</a>
+        </p> 
+    </section>
+
+    <section class="slide centered-v dis-slide click">
+        <h2>Работа с событиями </h2>
+        <div>
+            <article>
+                <p>onClick</p>
+                <img style="box-sizing: border-box; border-radius: 10px; border-bottom: 6px dotted red;" src="pictures/onclick.gif" alt="">
+                <img style="box-sizing: border-box; border-radius: 10px; border-bottom: 6px solid red;" src="pictures/onbl.gif" alt="">
+            </article>
+            <article>
+                <p style="margin-top: 19% !important; margin-bottom: 1%;">onBlur + onFocus</p>
+                <div class="line-hr"></div>
+                <img style="margin-top: 3% !important; box-sizing: border-box; border-radius: 10px; border-bottom: 6px solid #53bfdf;" style="margin-top: 3% !important;" src="pictures/onfoc.gif" alt="">
+            </article>
+        </div>
+    </section>
+
+    <section class="slide full" style="align-items: center;">
+        <div class="next screen-advice">
+            <h2 class="shout">Избегайте избыточности</h2>
+        </div>
+        <img src="pictures/mess.jpeg" alt="mess">
+    </section>
+
+    <section class="slide full right-dl">
+        <img style="height: 100%; margin: 0;" src="pictures/peop.jpg" alt="all-peop">
+        <div class="right-block">
+            <h2 style="margin: 5rem 0 0; text-align: center; font-size: 3rem;">WCAG  </h2>
+            <h2 style="margin: 2rem 0 3rem; text-align: center; font-size: 1.7rem; font-weight: 300;">Web Content Accessibility Guidelines</h2>
+            <div class="arrow-8"></div>
+            <h4 style="margin-top: 4rem;">
+                Доступность для всех 
+            </h4>
+            <h4>
+                пользователей
+            </h4>
+        </div>
+    </section>
+
+    <section class="slide full right-dl">
+        <img style="height: 100%; margin: 0;" src="pictures/switch.gif" alt="switch">
+        <dl  class="with-block" style="margin-top: 7%;">
+            <dt>
+                Режим доступности в приложении  
+            </dt>
+            <dd style="margin-bottom: 10%;">
+                <ul>
+                    <li>требует много времени и ресурсов</li>
+                    <li>избыточность</li>
+                    <li>дискриминация</li>
+                </ul>
+            </dd>
+            <h3 class="h3-radius">Вынужденная мера!</h3>
+        </dl>      
+    </section>
+
+    <!-- <section class="slide full">
+        <div class="screen-advice">
+            <h2 class="shout">Accessibility Team?</h2>
+        </div>
+        <img src="pictures/a11y.png" alt="a11y">
+    </section> -->
+
+    <!-- <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout">Зовите на <br> собрания</h2>
+        </div>
+        <img src="pictures/meetup.jpg" alt="meetup">
+    </section> -->
+
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout" >Работайте с документацией</h2>
+        </div>
+        <img src="pictures/docs.jpg" alt="docs">
+        <p class="copyright">
+            <a href="https://wildflower.atlassian.net/wiki/spaces/AA/pages/2511241282/Wildflower+Accessibility+Guidelines">Accessibility Guidelines</a>
+        </p>
+    </section>
+    
+    <section class="slide full">
+        <div class="next screen-advice">
+            <h2 class="shout" >Дизайнер <br> <span id="blink">⇨ не ⇦</span> <br> всегда прав</h2>
+        </div>
+        <img src="pictures/diz.jpg" alt="diz">
+    </section>
+
+    <section class="slide centered">
+        <h2 class="shout">Повторяем <img style="width: 5rem;" src="pictures/repeat.png" alt=""/></h2>
+    </section>
+    <section class="slide centered">
+        <ul style="border: 6px solid rgb(255, 127, 0); border-radius: 20px; padding: 5% 5% 5% 10%;">
+            <li>Придерживайтесь семантики ☝</li>
+            <li>Прорабатывайте структуру компонентов 🧠</li>
+            <li>Тестируйте 🤳</li>
+            <li>Используйте ARIA ✅</li>
+        </ul>
+    </section>
+
+    <section class="slide centered">
+        <h2 class="shout">Общайтесь 🙃</h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="complementary">
+            Говорите о доступности 🏢
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Спасибо 🏁</h2>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Сделано в Shower</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="highlight/index.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="showerJS/shower.min.js"></script>
+    <script src="myscript.js"></script>
+
+</body>
+
+</html>
